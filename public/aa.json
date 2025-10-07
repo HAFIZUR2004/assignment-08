@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/200/200?random=1",
+    "title": "TaskMaster",
+    "detail": "Task Manager & Reminder",
+    "companyName": "HERO.IO",
+    "description": "A productivity app to manage your tasks efficiently.",
+    "size": 45,
+    "reviews": 1200,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/200/200?random=2",
+    "title": "FitTrack",
+    "detail": "Fitness Tracker & Activity Log",
+    "companyName": "HERO.IO",
+    "description": "Track your fitness goals and daily activities easily.",
+    "size": 38,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": "3.5M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 365 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/200/200?random=3",
+    "title": "NoteIt",
+    "detail": "Quick Notes & Organizer",
+    "companyName": "HERO.IO",
+    "description": "Take quick notes and organize them efficiently.",
+    "size": 25,
+    "reviews": 1500,
+    "ratingAvg": 4.7,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 865 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/200/200?random=4",
+    "title": "Foodies",
+    "detail": "Restaurant Finder & Food Delivery",
+    "companyName": "HERO.IO",
+    "description": "Discover restaurants and order your favorite food easily.",
+    "size": 50,
+    "reviews": 2100,
+    "ratingAvg": 4.3,
+    "downloads": "7.5M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 995 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/200/200?random=5",
+    "title": "TravelMate",
+    "detail": "Trip Planner & Travel Guide",
+    "companyName": "HERO.IO",
+    "description": "Plan your trips and explore new destinations effortlessly.",
+    "size": 60,
+    "reviews": 890,
+    "ratingAvg": 4.1,
+    "downloads": "4.2M",
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 315 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/200/200?random=6",
+    "title": "BudgetBuddy",
+    "detail": "Expense Manager & Tracker",
+    "companyName": "HERO.IO",
+    "description": "Manage your expenses and budget easily.",
+    "size": 30,
+    "reviews": 1340,
+    "ratingAvg": 4.6,
+    "downloads": "5.6M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 755 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/200/200?random=7",
+    "title": "WeatherWise",
+    "detail": "Real-time Weather Forecasts",
+    "companyName": "HERO.IO",
+    "description": "Get accurate weather forecasts and alerts in real-time.",
+    "size": 28,
+    "reviews": 1120,
+    "ratingAvg": 4.4,
+    "downloads": "4.8M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 445 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/200/200?random=8",
+    "title": "MeditateNow",
+    "detail": "Guided Meditation & Relaxation",
+    "companyName": "HERO.IO",
+    "description": "Relax your mind and meditate with guided sessions.",
+    "size": 35,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": "3.7M",
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 425 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/200/200?random=9",
+    "title": "Learnify",
+    "detail": "Online Courses & Skill Builder",
+    "companyName": "HERO.IO",
+    "description": "Learn new skills and take professional courses from experts.",
+    "size": 42,
+    "reviews": 3100,
+    "ratingAvg": 4.7,
+    "downloads": "8.2M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 220 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1780 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/200/200?random=10",
+    "title": "MusicFlow",
+    "detail": "Offline Music & Playlist Manager",
+    "companyName": "HERO.IO",
+    "description": "Listen to music offline and manage custom playlists easily.",
+    "size": 48,
+    "reviews": 5200,
+    "ratingAvg": 4.6,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 1600 },
+      { "name": "5 star", "count": 3010 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/200/200?random=11",
+    "title": "LangBridge",
+    "detail": "Language Translator & Learning",
+    "companyName": "HERO.IO",
+    "description": "Translate text and learn new languages with interactive lessons.",
+    "size": 33,
+    "reviews": 2700,
+    "ratingAvg": 4.5,
+    "downloads": "6.8M",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1620 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/200/200?random=12",
+    "title": "CleanDroid",
+    "detail": "Phone Cleaner & Speed Booster",
+    "companyName": "HERO.IO",
+    "description": "Boost your phone’s performance and free up storage space.",
+    "size": 20,
+    "reviews": 4100,
+    "ratingAvg": 4.2,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 1860 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/200/200?random=13",
+    "title": "CryptoGuard",
+    "detail": "Crypto Portfolio & Price Tracker",
+    "companyName": "HERO.IO",
+    "description": "Track cryptocurrency prices and manage your portfolio easily.",
+    "size": 36,
+    "reviews": 1750,
+    "ratingAvg": 4.4,
+    "downloads": "4.5M",
+    "ratings": [
+      { "name": "1 star", "count": 55 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/200/200?random=14",
+    "title": "HomeSync",
+    "detail": "Smart Home Control Hub",
+    "companyName": "HERO.IO",
+    "description": "Control all your smart home devices from a single app.",
+    "size": 40,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": "2.9M",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 375 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/200/200?random=15",
+    "title": "FocusZen",
+    "detail": "Focus Timer & Productivity Tool",
+    "companyName": "HERO.IO",
+    "description": "Stay focused and increase productivity with Pomodoro timers.",
+    "size": 22,
+    "reviews": 800,
+    "ratingAvg": 4.6,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/200/200?random=16",
+    "title": "ShopSmart",
+    "detail": "Price Compare & Shopping Deals",
+    "companyName": "HERO.IO",
+    "description": "Find the best deals and compare prices from multiple stores.",
+    "size": 27,
+    "reviews": 1800,
+    "ratingAvg": 4.5,
+    "downloads": "6.1M",
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 960 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://picsum.photos/200/200?random=17",
+    "title": "MindEase",
+    "detail": "Mental Health & Journaling",
+    "companyName": "HERO.IO",
+    "description": "Track your mood, write journals, and get self-care reminders.",
+    "size": 34,
+    "reviews": 1200,
+    "ratingAvg": 4.7,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://picsum.photos/200/200?random=18",
+    "title": "DriveSafe",
+    "detail": "Car Assistant & Route Tracker",
+    "companyName": "HERO.IO",
+    "description": "Monitor your driving habits and get route suggestions safely.",
+    "size": 50,
+    "reviews": 2300,
+    "ratingAvg": 4.4,
+    "downloads": "8.9M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1195 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://picsum.photos/200/200?random=19",
+    "title": "PhotoFix",
+    "detail": "AI Photo Enhancer & Editor",
+    "companyName": "HERO.IO",
+    "description": "Enhance your photos automatically with AI-powered tools.",
+    "size": 55,
+    "reviews": 4500,
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2880 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://picsum.photos/200/200?random=20",
+    "title": "ReadSphere",
+    "detail": "Ebook Reader & Library Organizer",
+    "companyName": "HERO.IO",
+    "description": "Read and organize ebooks in one elegant digital library.",
+    "size": 60,
+    "reviews": 1800,
+    "ratingAvg": 4.6,
+    "downloads": "7.2M",
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 925 }
+    ]
+  }
+]
