@@ -6,6 +6,7 @@ import ErrorPage from '../../Pages/ErrorPage';
 import Home from '../../Pages/Home';
 import Apps from '../../Pages/Apps';
 import AppDetailCard from '../../Pages/AppDetailCard'; // ঠিক ফাইল নাম অনুযায়ী
+import Installation from '../../Pages/Installation';
 
 export const router = createBrowserRouter([
   {
@@ -22,10 +23,17 @@ export const router = createBrowserRouter([
         path: "/apps",
         Component: Apps,
       },
+
       {
         path: "/apps/:id", // dynamic route for individual app
         Component: AppDetailCard,
       },
+      {
+        path: "/installation",
+        Component: Installation,
+      },
+
+
     ],
   },
 ]);

@@ -28,11 +28,11 @@ const Navbar = () => {
             <a href="/" className="hover:text-purple-600 transition">Home</a>
           </li>
           <li>
-            <Link  to="apps" className="hover:text-purple-600 transition">Apps</Link>
+            <Link to="apps" className="hover:text-purple-600 transition">Apps</Link>
           </li>
-          
+
           <li>
-            <a href="#installation" className="hover:text-purple-600 transition">Installation</a>
+            <Link to="/installation" className="hover:text-purple-600 transition">Installation</Link>
           </li>
         </ul>
 
