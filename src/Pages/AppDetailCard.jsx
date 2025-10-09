@@ -30,7 +30,7 @@ const AppDetailPage = () => {
   }, [id]);
 
   if (!app) return <Loader />;
-  if (app === "not-found") return <h2 className="text-center text-red-600 mt-20 text-xl">App Not Found</h2>;
+  if (app === "not-found") return <h2 className="text-center text-red-600 mt-20 text-3xl ">App Not Found</h2>;
 
   const handleInstall = () => {
     toast.success(`${app.title} has been installed! ✅`, {
@@ -137,3 +137,5 @@ const AppDetailPage = () => {
 };
 
 export default AppDetailPage;
+
+// commit
