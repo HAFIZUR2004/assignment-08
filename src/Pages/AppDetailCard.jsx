@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Loader from "./Loader";
 import downloadicon from "../assets/icon-downloads.png";
 import ratingicon from "../assets/icon-ratings.png";
 import reviewicon from "../assets/icon-review.png";
@@ -11,18 +12,16 @@ const AppDetailPage = () => {
   const [app, setApp] = useState(null);
   const [isInstalled, setIsInstalled] = useState(false);
 
-  // Fetch App Data
   useEffect(() => {
     fetch("/aa.json")
       .then((res) => res.json())
       .then((data) => {
         const foundApp = data.find((a) => a.id === parseInt(id));
-        setApp(foundApp);
+        setApp(foundApp || "not-found");
       })
-      .catch((err) => console.error(err));
+      .catch(() => setApp("not-found"));
   }, [id]);
 
-  // Check localStorage if app is already installed
   useEffect(() => {
     const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
     if (installedApps.some((a) => a.id === parseInt(id))) {
@@ -30,9 +29,9 @@ const AppDetailPage = () => {
     }
   }, [id]);
 
-  if (!app) return <p className="text-center py-10 text-lg">Loading...</p>;
+  if (!app) return <Loader />;
+  if (app === "not-found") return <h2 className="text-center text-red-600 mt-20 text-xl">App Not Found</h2>;
 
-  // Updated handleInstall
   const handleInstall = () => {
     toast.success(`${app.title} has been installed! ✅`, {
       position: "top-right",
@@ -45,43 +44,31 @@ const AppDetailPage = () => {
 
     setIsInstalled(true);
 
-    // Save the whole app object to localStorage
     const installedApps = JSON.parse(localStorage.getItem("installedApps")) || [];
-
-    // Check if app already exists (by ID)
-    if (!installedApps.some(a => a.id === app.id)) {
+    if (!installedApps.some((a) => a.id === app.id)) {
       installedApps.push(app);
       localStorage.setItem("installedApps", JSON.stringify(installedApps));
     }
   };
 
-  // Dummy rating data
-  const ratingData = [
-    { star: 5, count: 12000 },
-    { star: 4, count: 9000 },
-    { star: 3, count: 6000 },
-    { star: 2, count: 3000 },
-    { star: 1, count: 0 },
-  ];
-  const maxRating = Math.max(...ratingData.map((r) => r.count));
+  const ratingData = app.ratings
+    ? app.ratings
+        .slice()
+        .reverse()
+        .map((r) => ({ star: parseInt(r.name), count: r.count }))
+    : [];
+
+  const maxRating = ratingData.length > 0 ? Math.max(...ratingData.map((r) => r.count)) : 0;
 
   return (
     <div className="max-w-5xl mx-auto mt-10 p-6 bg-white shadow-lg rounded-2xl">
       <div className="flex flex-col md:flex-row gap-8 items-start">
         <div className="w-full md:w-1/2">
-          <img
-            src={app.image}
-            alt={app.title}
-            className="w-full h-64 md:h-80 object-cover rounded-xl shadow-md"
-          />
+          <img src={app.image} alt={app.title} className="w-full h-64 md:h-80 object-cover rounded-xl shadow-md" />
         </div>
 
         <div className="w-full md:w-1/2 space-y-4">
-          <div className="flex flex-wrap items-center gap-2">
-            <h2 className="text-2xl font-bold text-gray-800">{app.title}:</h2>
-            <h2 className="text-2xl font-bold text-gray-800">{app.detail}</h2>
-          </div>
-
+          <h2 className="text-2xl font-bold text-gray-800">{app.title}: {app.detail}</h2>
           <p className="text-gray-500 text-sm md:text-base">
             Developed by: <span className="text-red-600 font-medium ml-1">{app.companyName}</span>
           </p>
@@ -124,11 +111,11 @@ const AppDetailPage = () => {
           {ratingData.map((r) => (
             <div key={r.star} className="flex items-center gap-4">
               <span className="w-10 text-sm font-medium text-gray-700">{r.star}★</span>
-              <div className="flex-1 bg-gray-200 h-3 rounded">
+              <div className="flex-1 h-5 bg-gray-200 rounded">
                 <div
-                  className="h-3 rounded"
+                  className="h-5 rounded"
                   style={{
-                    width: `${(r.count / maxRating) * 100}%`,
+                    width: maxRating > 0 ? `${(r.count / maxRating) * 100}%` : "0%",
                     backgroundColor: "#FF8811",
                   }}
                 ></div>

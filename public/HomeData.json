@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://picsum.photos/200/200?random=1",
+    "image": "https://m.media-amazon.com/images/M/MV5BY2RmNmM1YzAtOWJlMi00NTdiLWEwN2MtNDliNGI3NmUxMTk3XkEyXkFqcGc@._V1_.jpg",
     "title": "TaskMaster",
     "detail": "Task Manager & Reminder",
     "companyName": "HERO.IO",
@@ -20,7 +20,7 @@
   },
   {
     "id": 2,
-    "image": "https://picsum.photos/200/200?random=2",
+    "image": "https://play-lh.googleusercontent.com/XbyPYUvaiayhseYJkxprcSRwnRCm3wtlEQq9SW7eQ-aCaYCbqi3NSweLJgzK_i1u2EY",
     "title": "FitTrack",
     "detail": "Fitness Tracker & Activity Log",
     "companyName": "HERO.IO",
@@ -39,7 +39,7 @@
   },
   {
     "id": 3,
-    "image": "https://picsum.photos/200/200?random=3",
+    "image": "https://play-lh.googleusercontent.com/7WWH5eheSEVuWk2dknuexliwunsc5PyXhArGX-JfdSjZpFMdoyEF7dBRIJHBbFam7xc",
     "title": "NoteIt",
     "detail": "Quick Notes & Organizer",
     "companyName": "HERO.IO",
@@ -58,7 +58,7 @@
   },
   {
     "id": 4,
-    "image": "https://picsum.photos/200/200?random=4",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxcB4m8A7-yV-sP3gO6cNmHk1bMk7HyFVEYw&s",
     "title": "Foodies",
     "detail": "Restaurant Finder & Food Delivery",
     "companyName": "HERO.IO",
@@ -77,8 +77,8 @@
   },
   {
     "id": 5,
-    "image": "https://picsum.photos/200/200?random=5",
-    "title": "TravelMate",
+    "image": "https://play-lh.googleusercontent.com/BmUViDVOKNJe0GYJe22hsr7juFndRVbvr1fGmHGXqHfJjNAXjd26bfuGRQpVrpJ6YbA",
+    "title": "TikTok",
     "detail": "Trip Planner & Travel Guide",
     "companyName": "HERO.IO",
     "description": "Plan your trips and explore new destinations effortlessly.",
@@ -96,7 +96,7 @@
   },
   {
     "id": 6,
-    "image": "https://picsum.photos/200/200?random=6",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW6QsObPx_9e-Lj3XCZlLifIcVWGYZ3T6jQQ&s",
     "title": "BudgetBuddy",
     "detail": "Expense Manager & Tracker",
     "companyName": "HERO.IO",
@@ -115,7 +115,7 @@
   },
   {
     "id": 7,
-    "image": "https://picsum.photos/200/200?random=7",
+    "image": "https://play-lh.googleusercontent.com/8YkXmhweu_LvBzit8FZxSafrXWMg46GqUdopBLkpu-VOD_i1IpN8f5zmlmrGLMI8lhk",
     "title": "WeatherWise",
     "detail": "Real-time Weather Forecasts",
     "companyName": "HERO.IO",
@@ -134,7 +134,7 @@
   },
   {
     "id": 8,
-    "image": "https://picsum.photos/200/200?random=8",
+    "image": "https://meditatenow.it.com/wp-content/uploads/2025/08/cropped-3c947edc-99e4-4e3f-9b7d-398cde8a75e0.webp",
     "title": "MeditateNow",
     "detail": "Guided Meditation & Relaxation",
     "companyName": "HERO.IO",

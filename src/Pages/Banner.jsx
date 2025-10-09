@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FaGooglePlay, FaAppStoreIos } from "react-icons/fa";
 import heropng from "../assets/hero.png";
 import Trusted from "./Trusted";
+import Loader from "./Loader";
 
 const Banner = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // simulate short loading time (e.g., fetching or image load)
+    const timer = setTimeout(() => setLoading(false), 800);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-[70vh]">
+        <Loader />
+      </div>
+    );
+  }
+
   return (
     <>
       <section className="bg-gradient-to-r from-purple-50 via-indigo-50 to-white py-20">
@@ -11,7 +28,7 @@ const Banner = () => {
           {/* Heading */}
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
             We Build <br />
-             <span className="text-purple-600">Productive Apps</span>
+            <span className="text-purple-600">Productive Apps</span>
           </h1>
 
           {/* Description */}
@@ -44,7 +61,7 @@ const Banner = () => {
             </a>
           </div>
 
-          {/* Optional Decorative Image */}
+          {/* Decorative Image */}
           <div className="mt-12">
             <img
               src={heropng}
